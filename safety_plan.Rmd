@@ -13,28 +13,25 @@ biblio-style: apalike
 knit: pagedown::chrome_print
 ---
 
-![logo](../onboarding/fig/nge-icon_name_black.png){.logo} 
-
-
- 
+![logo](../onboarding/fig/nge-icon_name_black.png){.logo}
 
 <br>
 
 ::: from
-Al Irvine  
-New Graph Environment  
-al@newgraphenvironment  
-250-777-1518  
-Date: `r format(Sys.Date(), "%Y-%m-%d")` 
+Al Irvine\
+New Graph Environment\
+[al\@newgraphenvironment](mailto:al@newgraphenvironment){.email}\
+250-777-1518\
+Date: `r format(Sys.Date(), "%Y-%m-%d")`
 :::
 
-
 <!-- Ministry of Environment  -->
+
 <!-- Skeena Region   -->
+
 <!-- 3726 Alfred Ave 1st Floor   -->
+
 <!-- Smithers, BC V0J 2N0   -->
-
-
 
 ```{r setup, include = TRUE, echo =FALSE, message=FALSE, warning=FALSE}
 # gitbook_on <- TRUE
@@ -83,18 +80,15 @@ vehicle2 <- '2007 Taoyota Tacoma - gold with canopy'
 vehicle3 <- 'Nico Ridge - Witset - 2021 chev Silverado. 4x4 truck'
 ```
 
+<br>
+
+# `r paste0('Safety Plan - ',name_project_complete)` {.unnumbered .break-after-me}
+
+The latest version of this pdf can be downloaded [here](%60r%20knitr::asis_output(link_pdf)%60).
 
 <br>
 
-# `r paste0('Safety Plan - ',name_project_complete)`  {.unnumbered .break-after-me}
-
-The latest version of this pdf can be downloaded [here](`r knitr::asis_output(link_pdf)`).
-
-
-<br>
-
-
-A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps can be accessed and downloaded [here for Bulkley and Morice](`r knitr::asis_output(link_fieldmaps)`), [here for Kispiox](`r knitr::asis_output(link_fieldmaps2)`) and [here for the Copper](`r knitr::asis_output(link_fieldmaps3)`).
+A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](%60r%20knitr::asis_output(link_kml)%60). Georeferenced pdf maps can be accessed and downloaded [here for Bulkley and Morice](%60r%20knitr::asis_output(link_fieldmaps)%60), [here for Kispiox](%60r%20knitr::asis_output(link_fieldmaps2)%60) and [here for the Copper](%60r%20knitr::asis_output(link_fieldmaps3)%60).
 
 <br>
 
@@ -102,16 +96,15 @@ A zip file which includes kml (google earth) and gpx (garmin) files of the sites
 
 Al - `r vehicle1`:
 
-- `r hotel1` 
-- `r hotel2` 
-- `r hotel3`  
+-   `r hotel1`
+-   `r hotel2`
+-   `r hotel3`
 
 Mateo - `r vehicle2`:
 
-- `r hotel1`
-- `r hotel4`
-- `r hotel5`
-
+-   `r hotel1`
+-   `r hotel4`
+-   `r hotel5`
 
 ```{r info-hospitals}
 hospital_name <- 'Houston Health Centre'
@@ -193,11 +186,7 @@ tab_crew %>%
                               font_size = font_set)
 ```
 
-
-
-
 # Equipment Checklists {.unnumbered}
-
 
 ```{r table-equipment}
 
@@ -257,7 +246,6 @@ tab_eq_crew %>%
 
 ### Nearest Hospitals {.unnumbered}
 
-
 ```{r hospital-1, fig.cap=my_caption, fig.width=6}
 my_caption = paste(hospital_name, hospital_address, hospital_phone, sep = ' - ')
 
@@ -315,22 +303,17 @@ ggmap::ggmap(mybasemap)
 knitr::asis_output(paste(hospital_name3, hospital_address3, hospital_phone3, sep = ' - ')) 
 ```
 
-
 ## Field Plan {.unnumbered}
 
-Field work methods will result in products feeding reporting formats such as the [2019 deliverables](https://newgraphenvironment.github.io/Parsnip_Fish_Passage/) and will generally follow procedures in: 
+Field work methods will result in products feeding reporting formats such as [here](https://newgraphenvironment.github.io/fish_passage_bulkley_2020_reporting/) for 2020 and [here](https://newgraphenvironment.github.io/fish_passage_skeena_2021_reporting/) for 2021. Still picking away at 2021 and just updating version IDs as I get through it. and will generally follow procedures in:
 
- * [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf)  [@fish_passage_assessments]
+-   [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) [@fish_passage_assessments]
 
- * [habitat confirmations](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/checklist-for-fish-habitat-confirmation-201112.pdf) [@confirmation_checklist_2011].
- 
- <br>
- 
-Presence/absence of fish, species composition/density and distribution limits can be useful for prioritizing which crossings are a best fit for fish passage restoration and help inform follow up monitoring so electrofishing and minnowtrapping may be conducted.  Standard Fish and Fish Habitat Inventory Standard Field Form [site cards](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/laws-policies-standards-guidance/inventory-standards/aquatic-ecosystems) are used to gather habitat data. Field guide is [here](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/nr-laws-policy/risc/sitecard20.pdf)
+-   [habitat confirmations](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/checklist-for-fish-habitat-confirmation-201112.pdf) [@confirmation_checklist_2011].
 
 <br>
 
-The write ups for the past couple of years of fieldwork assessments are [here](https://newgraphenvironment.github.io/fish_passage_bulkley_2020_reporting/) for 2020 and [here](https://newgraphenvironment.github.io/fish_passage_skeena_2021_reporting/) for 2021.  Still picking away at 2021 and just updating version IDs as I get through it.
+Presence/absence of fish, species composition/density and distribution limits can be useful for prioritizing which crossings are a best fit for fish passage restoration and help inform follow up monitoring so electrofishing and minnowtrapping may be conducted. Standard Fish and Fish Habitat Inventory Standard Field Form [site cards](https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/laws-policies-standards-guidance/inventory-standards/aquatic-ecosystems) are used to gather habitat data. Field guide is [here](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/nr-laws-policy/risc/sitecard20.pdf)
 
 <br>
 
@@ -338,7 +321,11 @@ We have PIT tagging equipment so we could consider [tagging](https://www.youtube
 
 <br>
 
-We are running digital field form tests using a product called [Mergin Maps](https://merginmaps.com/?gclid=Cj0KCQjwxb2XBhDBARIsAOjDZ34oq-iMid3vRrgK1ZAkJ_yiz4aWY-LLF90PHiXzELbZIrxooV9vWKYaAgl2EALw_wcB) which syncs with QGIS.  Crews can access projects with a free account. Please send me your usernames and I can begin to share projects/forms.
+We are running digital field form tests using a product called [Mergin Maps](https://merginmaps.com/?gclid=Cj0KCQjwxb2XBhDBARIsAOjDZ34oq-iMid3vRrgK1ZAkJ_yiz4aWY-LLF90PHiXzELbZIrxooV9vWKYaAgl2EALw_wcB) which syncs with QGIS. Crews can access projects with a free account. Please send me your usernames and I can begin to share projects/forms.
+
+<br>
+
+A guide to freshwater fish id such as @mcphail_carveth1993FieldKey can be useful and can be downloaded [here](https://a100.gov.bc.ca/pub/acat/documents/r13659/486FieldKeytoFreshwaterFishes1993Part1of2_1210014849226_8e248a8d30d97e6c45ef54a340babd2ffb57b14a3b16.pdf).
 
 <br>
 
@@ -346,22 +333,19 @@ A summary of sites to be potentially assessed is included as Table \@ref(tab:tab
 
 <!-- and an overview map of displaying potential sample locations is included as Figure 1. -->
 
+<br>
+
+### Check In Procedures {-}
+
+Call, text or inreach Tara Stark (2505059854) each morning to share the plan for the day (i.e. name of roads and sites). Check in time is before 7 pm each evening although we regularly check in throughout the day (ex. at arrival to site, 1pm and 4pm) on the inreach or by text and report position/provide updates.
 
 <br>
 
-### Check In Procedures {.unnumbered}
+#### Procedures for Failed Check-In - for Check in person {-}
 
 <br>
 
-Call, text or inreach Tara Stark (2505059854) each morning to share the plan for the day (i.e. name of roads and sites).  Check in time is before 7 pm each evening although we regularly check in throughout the day (ex. at arrival to site, 1pm and 4pm) on the inreach or by text and report position/provide updates.  
-
-<br>
-
-#### Procedures for Failed Check-In - for Check in person {.unnumbered}
-
-<br>
-
-Procedures are summarized in the following Figure. If phone call or inReach check-in is not received by 7pm send text to inreach units, call or text cell phones of field crew members. If no response please call accommodations then personal emergency contacts to see if they have heard anything.  Wait 1 hour and text inreach, text or call cell phones and personal emergency contacts and accomodations again. Repeat after 2 hours (9 pm) - if no response then notify the RCMP of a missing persons in field.
+Procedures are summarized in the following Figure. If phone call or inReach check-in is not received by 7pm send text to inreach units, call or text cell phones of field crew members. If no response please call accommodations then personal emergency contacts to see if they have heard anything. Wait 1 hour and text inreach, text or call cell phones and personal emergency contacts and accomodations again. Repeat after 2 hours (9 pm) - if no response then notify the RCMP of a missing persons in field.
 
 <br>
 
@@ -474,9 +458,7 @@ files_to_zip <- paste0("mapping/", list.files(path = "mapping/", pattern = "\\.k
 zip::zipr(paste0("mapping/sites_", name_project_name, '_', format(Sys.Date(), "%Y%m%d"), '_kml_gpx.zip'), files = files_to_zip)  ##it does not work to zip to kmz!!
 ```
 
-
 <!-- `r if(gitbook_on){knitr::asis_output("<br>")} else knitr::asis_output("<br><br><br><br><br><br><br>")` -->
-
 
 ```{r map-prep, eval=F}
 ##register google key defined in 'R/private_info.R' file
@@ -515,9 +497,7 @@ mymap
 # Figure 1. Map of potential sampling areas. High priority sites in red and moderate priority in green.
 ```
 
-
 `r if(gitbook_on){knitr::asis_output("<br>")} else knitr::asis_output("<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>")`
-
 
 ```{r tab-sites}
 table_sites %>% 
