@@ -90,7 +90,10 @@ The latest version of this pdf can be downloaded [here](%60r%20knitr::asis_outpu
 
 A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](%60r%20knitr::asis_output(link_kml)%60). Georeferenced pdf maps can be accessed and downloaded [here for Bulkley and Morice](%60r%20knitr::asis_output(link_fieldmaps)%60), [here for Kispiox](%60r%20knitr::asis_output(link_fieldmaps2)%60) and [here for the Copper](%60r%20knitr::asis_output(link_fieldmaps3)%60).
 
+
 <br>
+
+A summary of sites to be potentially assessed is included as Table \@ref(tab:tab-sites).  The process to shortlist these sites is documented [here](https://newgraphenvironment.github.io/fish_passage_skeena_2022_planning/) with a password provided in the email when this plan was originally forwarded.  If you require the password again please email al@newgraphenvironment.com.
 
 **Accomodations**
 
@@ -327,9 +330,7 @@ We are running digital field form tests using a product called [Mergin Maps](htt
 
 A guide to freshwater fish id such as @mcphail_carveth1993FieldKey can be useful and can be downloaded [here](https://a100.gov.bc.ca/pub/acat/documents/r13659/486FieldKeytoFreshwaterFishes1993Part1of2_1210014849226_8e248a8d30d97e6c45ef54a340babd2ffb57b14a3b16.pdf).
 
-<br>
 
-A summary of sites to be potentially assessed is included as Table \@ref(tab:tab-sites).
 
 <!-- and an overview map of displaying potential sample locations is included as Figure 1. -->
 
