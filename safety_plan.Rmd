@@ -76,7 +76,7 @@ hotel5 <- '7523 Lake Kathlyn Rd, Smithers, BC V0J 2N2 - 54.830952, -127.212028'
 
 
 vehicle1 <- '2013 Toyota Tundra black w/flatdeck and yellow can-am quad'
-vehicle2 <- '2007 Taoyota Tacoma - gold with canopy'
+vehicle2 <- '2007 Toyota Tacoma - gold with canopy'
 vehicle3 <- 'Nico Ridge - Witset - 2021 chev Silverado. 4x4 truck'
 ```
 
@@ -84,11 +84,11 @@ vehicle3 <- 'Nico Ridge - Witset - 2021 chev Silverado. 4x4 truck'
 
 # `r paste0('Safety Plan - ',name_project_complete)` {.unnumbered .break-after-me}
 
-The latest version of this pdf can be downloaded [here](%60r%20knitr::asis_output(link_pdf)%60).
+The latest version of this pdf can be downloaded [here](https://github.com/NewGraphEnvironment/safety_plan_skeena_2022/raw/main/docs/safety_plan_sern-skeena-fish-passage.pdf).
 
 <br>
 
-A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](%60r%20knitr::asis_output(link_kml)%60). Georeferenced pdf maps can be accessed and downloaded [here for Bulkley and Morice](%60r%20knitr::asis_output(link_fieldmaps)%60), [here for Kispiox](%60r%20knitr::asis_output(link_fieldmaps2)%60) and [here for the Copper](%60r%20knitr::asis_output(link_fieldmaps3)%60).
+A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](https://github.com/NewGraphEnvironment/safety_plan_skeena_2022/raw/main/mapping/sites_sern-skeena-fish-passage_20220824_kml_gpx.zip). Georeferenced pdf maps can be accessed and downloaded [here for Bulkley and Morice](https://hillcrestgeo.ca/outgoing/fishpassage/projects/bulkley/), [here for Kispiox](https://hillcrestgeo.ca/outgoing/fishpassage/projects/kisp/) and [here for the Copper](https://hillcrestgeo.ca/outgoing/fishpassage/projects/zymo/).
 
 
 <br>
